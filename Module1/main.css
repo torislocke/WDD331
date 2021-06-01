@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+/*  establish variables for ease of change if needed */
+:root {
+	--blue: #6495ed;
+	--headerText: #faebd7;
+	--background: #faebd7;
+	--white: #ffffff;
+	--navNormVisited: #faebd7;
+	--pageNormVisited: #6495ed;
+	--active: #deb887;
+	--articleTitleLinksHover: #6495ed;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Lora', serif;
+}
+main {
+	display: flex;
+	flex-direction: column;
+	background-color: var(--background);
+	margin-top: 0;
+}
+/*  --- all links remove underline in initial state --- */
+a {
+	text-decoration: none;
+}
+/* all active links (nav, title, page) color is set #DEB887 */
+a:active {
+	color: var(--active);
+}
+/* ---- Header Section ---- */
+header {
+	background-color: var(--blue);
+}
+hr {
+	width: 80%;
+	margin-right: 15px;
+}
+header h1 {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-bottom: 5px;
+}
+h1 a {
+	color: var(--headerText);
+	font-size: 25px;
+	margin: 20px 15px 0 10px;
+	letter-spacing: 0.1ch;
+}
+/* --- Navigation Section - active link in global setting -- */
+nav {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 15px;
+	margin-top: -15px;
+}
+nav ul li {
+	display: flex;
+	justify-content: flex-end;
+	padding: 0 0 10px 0;
+}
+nav a,
+nav a:visited {
+	color: var(--navNormVisited);
+	font-size: 17px;
+}
+
+nav a:hover {
+	color: var(--white);
+	text-decoration: underline;
+}
+/* ---  article section styles -- */
+article {
+	background-color: var(--white);
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 90%;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 6px 5px 5px rgb(216, 213, 213);
+}
+article h2 {
+	font-weight: 700;
+}
+article p {
+	font-weight: 500;
+}
+article a,
+article a:visited {
+	color: var(--pageNormVisited);
+}
+
+section {
+	padding: 0 30px 30px 30px;
+	margin: auto;
+	margin-top: -15px;
+}
+.post-date {
+	font-size: 16px;
+	padding: 30px 30px 0px 30px;
+	color: darkgray;
+	font-weight: 700;
+}
+.post-content h2 a,
+.post-content h2 a:visited {
+	color: black;
+}
+.post-content h2 a:hover {
+	color: var(--articleTitleLinksHover);
+	text-decoration: underline;
+}
+section figure {
+	margin: 0;
+}
+section figure img {
+	display: block;
+	padding-top: 30px;
+	margin: auto;
+	max-width: 200px;
+	align-content: center;
+}
+nav ul li a {
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+@media only screen and (min-width: 760px) {
+	body div {
+		display: grid;
+		grid-template-columns: 200px 1fr;
+	}
+	h1 a {
+		font-size: 28px;
+		text-align: right;
+	}
+	article h2 {
+		font-size: 28px;
+	}
+	section figure img {
+		width: 500px;
+	}
+}
