@@ -1,0 +1,38 @@
+/* form > p {
+	background-color: red;
+}
+
+form p {
+	background-color: blue;
+}
+
+span.help {
+	background-color: yellow;
+} */
+/* p + fieldset {
+	background-color: pink;
+} */
+/* fieldset:nth-child(1) {
+	background-color: red;
+} */
+/* fieldset:first-of-type {
+	background-color: purple;
+}
+
+fieldset:nth-of-type(1) {
+	background-color: grey;
+} */
+
+/* fieldset:not(:first-of-type) {
+	background-color: red;
+} */
+
+/* [title*='fieldset'] {
+	background-color: chartreuse;
+} */
+/* fieldset:nth-child(1) {
+	background-color: red;
+} */
+[title*='fieldset'] {
+	background-color: red;
+}
