@@ -1,0 +1,10 @@
+// master mixin file
+$one-column: 12.5%;
+@mixin col($span-num) {
+	flex: 0 0 $one-column * $span-num;
+}
+
+@mixin offset($offset-num) {
+	margin-left: $one-column * $offset-num;
+}
+
