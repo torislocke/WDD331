@@ -1,0 +1,650 @@
+/* Document
+ * ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+@import url("https://use.typekit.net/nor5fiz.css");
+html {
+  line-height: 1.15;
+  /* 1 */ }
+
+/* Sections
+ * ========================================================================== */
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Edge, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+ * ========================================================================== */
+/**
+ * Remove the margin on nested lists in Chrome, Edge, IE, and Safari.
+ */
+dl dl,
+dl ol,
+dl ul,
+ol dl,
+ul dl {
+  margin: 0; }
+
+/**
+ * Remove the margin on nested lists in Edge 18- and IE.
+ */
+ol ol,
+ol ul,
+ul ol,
+ul ul {
+  margin: 0; }
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Correct the inheritance of border color in Firefox.
+ * 3. Show the overflow in Edge 18- and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 3 */ }
+
+/**
+ * Add the correct display in IE.
+ */
+main {
+  display: block; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+ * ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * Add the correct text decoration in Edge 18-, IE, and Safari.
+ */
+abbr[title] {
+  text-decoration: underline;
+  text-decoration: underline dotted; }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/* Embedded content
+ * ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+audio,
+video {
+  display: inline-block; }
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Remove the border on images within links in IE 10-.
+ */
+img {
+  border-style: none; }
+
+/**
+ * Hide the overflow in IE.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Tabular data
+ * ========================================================================== */
+/**
+ * 1. Correct table border color inheritance in all Chrome, Edge, and Safari.
+ * 2. Remove text indentation from table contents in Chrome, Edge, and Safari.
+ */
+table {
+  border-color: inherit;
+  /* 1 */
+  text-indent: 0;
+  /* 2 */ }
+
+/* Forms
+ * ========================================================================== */
+/**
+ * Remove the margin on controls in Safari.
+ */
+button,
+input,
+select {
+  margin: 0; }
+
+/**
+ * 1. Show the overflow in IE.
+ * 2. Remove the inheritance of text transform in Edge 18-, Firefox, and IE.
+ */
+button {
+  overflow: visible;
+  /* 1 */
+  text-transform: none;
+  /* 2 */ }
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+ * Show the overflow in Edge 18- and IE.
+ */
+input {
+  overflow: visible; }
+
+/**
+ * 1. Correct the text wrapping in Edge 18- and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * 1. Add the correct display in Edge 18- and IE.
+ * 2. Add the correct vertical alignment in Chrome, Edge, and Firefox.
+ */
+progress {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Remove the inheritance of text transform in Firefox.
+ */
+select {
+  text-transform: none; }
+
+/**
+ * 1. Remove the margin in Firefox and Safari.
+ * 2. Remove the default vertical scrollbar in IE.
+ */
+textarea {
+  margin: 0;
+  /* 1 */
+  overflow: auto;
+  /* 2 */ }
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * 1. Correct the odd appearance in Chrome, Edge, and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  outline-offset: -2px;
+  /* 2 */ }
+
+/* Interactive
+ * ========================================================================== */
+/*
+ * Add the correct display in Edge 18- and IE.
+ */
+details {
+  display: block; }
+
+/*
+ * Add the correct styles in Edge 18-, IE, and Safari.
+ */
+dialog {
+  background-color: white;
+  border: solid;
+  color: black;
+  display: block;
+  height: fit-content;
+  left: 0;
+  margin: auto;
+  padding: 1em;
+  position: absolute;
+  right: 0;
+  width: fit-content; }
+
+dialog:not([open]) {
+  display: none; }
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item; }
+
+/* Scripting
+ * ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+canvas {
+  display: inline-block; }
+
+/**
+ * Add the correct display in IE.
+ */
+template {
+  display: none; }
+
+/* User interaction
+ * ========================================================================== */
+/**
+ * Add the correct display in IE 10-.
+ */
+[hidden] {
+  display: none; }
+
+.background-responsive1 {
+  max-width: 100%;
+  padding-bottom: 50%;
+  background-size: cover;
+  background-position: center; }
+
+/* ----- Typography ----------- */
+h1,
+h2,
+h3 {
+  font-family: "adobe-kannada", serif; }
+
+h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 105%;
+  margin: 0 0 0.4em; }
+  @media only screen and (min-width: 65em) {
+    h1 {
+      font-size: 3rem; } }
+  @media only screen and (min-width: 100em) {
+    h1 {
+      font-size: 3.4rem; } }
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 1.4em 0; }
+  @media only screen and (min-width: 65em) {
+    h2 {
+      font-size: 1.7rem; } }
+  @media only screen and (min-width: 100em) {
+    h2 {
+      font-size: 2rem; } }
+
+h3 {
+  margin-left: 1em;
+  font-weight: 800;
+  font-size: 1.2em;
+  font-style: italic; }
+  @media only screen and (min-width: 65em) {
+    h3 {
+      font-size: 1.4rem; } }
+
+p {
+  font-family: "pt-sans", sans-serif;
+  color: #5a6e8f;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5em;
+  font-size: 1em;
+  margin-top: 1em;
+  margin-right: 1.5em;
+  margin-left: 1em;
+  text-align: justify; }
+  @media only screen and (min-width: 65em) {
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6; } }
+
+abbr[title] {
+  text-decoration: none; }
+
+li {
+  list-style: none;
+  cursor: pointer; }
+
+a {
+  text-decoration: none; }
+
+/* ----- Body Layout ----------- */
+body {
+  margin: 10px;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* -------------------------------- 
+
+Zen Garden does not have a classic navigation
+
+-------------------------------- */
+header {
+  display: flex;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background: linear-gradient(to bottom, rgba(15, 10, 10, 0), rgba(0, 0, 0, 0.6)), url("../images/flower_pond_1920.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  position: relative;
+  max-width: 100%;
+  background-size: cover; }
+  header h1 {
+    color: #ffffff;
+    position: absolute;
+    top: 17%;
+    left: 7%; }
+    @media only screen and (min-width: 65em) {
+      header h1 {
+        top: 43%;
+        left: 61%; } }
+    @media only screen and (min-width: 100em) {
+      header h1 {
+        top: 45%;
+        left: 63%; } }
+  header h2 {
+    color: #ffffff;
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    padding: 0; }
+    @media only screen and (min-width: 65em) {
+      header h2 {
+        top: 46%;
+        left: 58%; } }
+    @media only screen and (min-width: 100em) {
+      header h2 {
+        top: 49%;
+        left: 63%; } }
+
+.main {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-around;
+  height: 100%; }
+  @media only screen and (min-width: 65em) {
+    .main div:nth-child(1) {
+      order: 1;
+      flex: 0 0 47%;
+      margin-left: 1.33%; }
+    .main :nth-child(2) {
+      order: 3;
+      flex: 0 0 47%;
+      margin-left: 1.33%; }
+    .main :nth-child(3) {
+      order: 2;
+      flex: 0 0 47%;
+      margin-left: 1.33%; }
+    .main :nth-child(4) {
+      order: 4;
+      flex: 0 0 47%;
+      margin-left: 1.33%; }
+    .main :nth-child(5) {
+      order: 5;
+      flex: 0 0 100%;
+      margin-left: 1.33%;
+      align-self: center; } }
+  @media only screen and (min-width: 100em) {
+    .main div:nth-child(1) {
+      flex: 0 0 32%;
+      margin-left: 1.33%; }
+    .main :nth-child(2) {
+      flex: 0 0 32%;
+      margin-left: 1.33%; }
+    .main :nth-child(3) {
+      flex: 0 0 32%;
+      margin-left: 1.33%; }
+    .main :nth-child(4) {
+      flex: 0 0 100%;
+      margin-left: 1.33%; }
+    .main :nth-child(5) {
+      flex: 0 0 100%;
+      margin-left: 1.33%; } }
+
+@supports (display: grid) {
+  .main {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr;
+    grid-template-areas: "explanation" "participation" "benefits" "requirements" "footer"; }
+    @media only screen and (min-width: 65em) {
+      .main {
+        gap: 1.3em;
+        grid-template-columns: repeat(2, auto);
+        grid-auto-rows: minmax(50px, auto) minmax(max-content, 1fr) minmax(min-content, max-content);
+        grid-template-areas: "footer footer" "explanation benefits" "requirements participation"; } }
+    @media only screen and (min-width: 100em) {
+      .main {
+        gap: 1.5em;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: "footer footer footer" "explanation participation benefits" "requirements requirements requirements"; } } }
+.explanation {
+  grid-area: explanation; }
+
+.participation {
+  grid-area: participation; }
+
+.benefits {
+  grid-area: benefits;
+  color: #ffffff;
+  background: linear-gradient(to bottom, rgba(15, 10, 10, 0), rgba(0, 0, 0, 0.6)), url("../images/lotus_640.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  position: relative;
+  max-width: 100%;
+  background-size: cover;
+  padding: 0.8em;
+  border-radius: 5%; }
+  .benefits p {
+    color: #ffffff; }
+
+.requirements {
+  grid-area: requirements; }
+
+footer {
+  grid-area: footer;
+  display: inline-flex; }
+
+footer a {
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out; }
+
+footer a:hover {
+  transform: scale(1.2);
+  color: #293241; }
+
+/* ----- Aside ----------- */
+aside ul li {
+  list-style-type: circle; }
+
+aside ul li a:hover {
+  color: #3d5a80; }
+
+.design-selection nav ul li a:hover {
+  color: #ffffff; }
+
+aside.wrapper {
+  display: flex; }
+
+@supports (display: grid) {
+  aside .wrapper {
+    display: grid;
+    gap: 1.5em;
+    grid-template-columns: 1fr; } }
+@media only screen and (min-width: 65em) {
+  .wrapper {
+    position: relative; }
+
+  .wrapper > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transition: top 0.3s ease, left 0.3s ease;
+    -moz-transition: top 0.3s ease, left 0.3s ease;
+    -o-transition: top 0.3s ease, left 0.3s ease;
+    -ms-transition: top 0.3s ease, left 0.3s ease;
+    transition: top 0.3s ease, left 0.3s ease; }
+
+  aside div {
+    background-color: #5ca399;
+    position: relative;
+    color: #ffffff;
+    padding: 0.5rem;
+    float: left;
+    margin-right: 10px;
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3); }
+    aside div a {
+      color: #ffffff;
+      font-size: 1.2em;
+      cursor: pointer; }
+
+  div[class*="design"]:before {
+    position: absolute;
+    font-size: 1.75em;
+    left: 5px;
+    top: 5px; }
+
+  div[class*="design"]:after {
+    position: absolute;
+    font-size: 1.75em;
+    right: 55px;
+    bottom: 5px; }
+
+  .wrapper {
+    margin: 50px;
+    box-shadow: none; }
+
+  /* For modern browsers */
+  .wrapper:before,
+  .wrapper:after {
+    content: "";
+    display: table; }
+
+  .wrapper:after {
+    clear: both; }
+
+  /* For IE 6/7 (trigger hasLayout) */
+  .wrapper {
+    zoom: 1; }
+
+  .wrapper:hover {
+    padding: 0.5rem;
+    background: #ffffff; }
+    .wrapper:hover .design-selection {
+      height: 450px;
+      left: 100px;
+      background-color: #e0fbfc;
+      color: #293241;
+      -webkit-transform: rotate(-20deg);
+      -moz-transform: rotate(-20deg);
+      -o-transform: rotate(-20deg);
+      -ms-transform: rotate(-20deg);
+      transform: rotate(-20deg);
+      z-index: 2; }
+    .wrapper:hover .design-selection a {
+      color: #293241;
+      transform: scale(1.1); }
+    .wrapper:hover .design-archives {
+      background-color: #98c1d9;
+      width: 200px;
+      height: 450px;
+      left: 420px;
+      top: -60px;
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      transform: rotate(0deg);
+      z-index: 1; }
+    .wrapper:hover .zen-resources {
+      height: 450px;
+      width: 300px;
+      background-color: #7c9ac1;
+      left: 600px;
+      top: -20px;
+      -webkit-transform: rotate(20deg);
+      -moz-transform: rotate(20deg);
+      -o-transform: rotate(20deg);
+      -ms-transform: rotate(20deg);
+      transform: rotate(20deg); }
+
+  .wrapper > .div:hover {
+    -webkit-box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.4); } }
+
+/*# sourceMappingURL=style.css.map */
